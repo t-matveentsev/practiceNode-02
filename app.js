@@ -15,3 +15,4 @@ const server = http.createServer((request, response) => {
 server.listen(3000, () => {
   console.log("Server run");
 });
+export const corsMiddleware = cors();
